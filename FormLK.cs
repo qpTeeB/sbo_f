@@ -58,7 +58,7 @@ namespace SBO_f
             point = new Point(e.X, e.Y);
         }
 
-        private void FormLK_Load(object sender, EventArgs e)
+        private void FormLK_Load(object sender, EventArgs e) //Загрузка объявлений определенного пользователя из бд и доавление их на ListView
         {
             LKbutton.Enabled = false;
             LKbutton.Visible = false;
