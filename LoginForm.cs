@@ -49,7 +49,7 @@ namespace SBO_f
             point = new Point(e.X,e.Y);
         }
 
-        private void ButtonLogin_Click(object sender, EventArgs e)
+        private void ButtonLogin_Click(object sender, EventArgs e) //Осуществляет сравнение данных, которые ввел пользователь и которые находятся в бд
         {
             String loginUser = loginField.Text;
             String passUser = passField.Text;
