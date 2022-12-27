@@ -67,26 +67,7 @@ namespace SBO_f
 
         private void CreateButton_Click(object sender, EventArgs e) //Метод добавления объявления в бд, так же проверяет корректность данных, введных пользователем
         {
-            if (wts_textbox.Text == "")
-            {
-                MessageBox.Show("Вы должны добавить описание к вашему товару.");
-                return;
-            }
-            if (wtb_textbox.Text == "")
-            {
-                MessageBox.Show("Вы должны добавить описание к товару, который ищете.");
-                return;
-            }
-            if (phone_textbox.Text == "")
-            {
-                MessageBox.Show("Вы должны добавить свой номер телефона.");
-                return;
-            }
-            else if (phone_textbox.Text.Length != 11)
-            {
-                MessageBox.Show("Неверный введен номер телефона");
-                return;
-            }
+            if (DataIsCorrect(wts_textbox.Text, wtb_textbox.Text, phone_textbox.Text)) return;
             DataBase db = new DataBase();
             MySqlCommand command = new MySqlCommand("INSERT INTO `orders` (`creator`, `wts`, `wtb`, `contacts`) VALUES (@uLogin, @WTS, @WTB, @uContacts)", db.getConnection());
 
@@ -107,6 +88,30 @@ namespace SBO_f
 
 
             db.closeConnection();
+        }
+        public static bool DataIsCorrect(string wts, string wtb, string num)
+        {
+            if (wts == "")
+            {
+                MessageBox.Show("Вы должны добавить описание к вашему товару.");
+                return true;
+            }
+            if (wtb == "")
+            {
+                MessageBox.Show("Вы должны добавить описание к товару, который ищете.");
+                return true;
+            }
+            if (num == "")
+            {
+                MessageBox.Show("Вы должны добавить свой номер телефона.");
+                return true;
+            }
+            else if (num.Length != 11)
+            {
+                MessageBox.Show("Неверный введен номер телефона");
+                return true;
+            }
+            return false;
         }
 
         private void LKbutton_Click(object sender, EventArgs e)

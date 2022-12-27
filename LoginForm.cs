@@ -54,6 +54,8 @@ namespace SBO_f
             String loginUser = loginField.Text;
             String passUser = passField.Text;
 
+            if (CheckUserData(loginUser, passUser)) return;
+
             DataBase db = new DataBase();
             DataTable table = new DataTable();
             MySqlDataAdapter adapter = new MySqlDataAdapter();
@@ -73,8 +75,20 @@ namespace SBO_f
                 mainPage.Show();
             }
             else MessageBox.Show("Неверный логин или пароль");
-
-
+        }
+        public static bool CheckUserData(string login, string pass)
+        {
+            if(login == "")
+            {
+                MessageBox.Show("Поле логина не может быть пустым!");
+                return true;
+            }
+            if(pass == "")
+            {
+                MessageBox.Show("Поле пароля не может быть пустым!");
+                return true;
+            }
+            return false;
         }
     }
 }
