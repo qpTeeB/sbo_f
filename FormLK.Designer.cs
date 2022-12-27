@@ -33,16 +33,16 @@ namespace SBO_f
             this.listView1 = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
             this.Username_lable = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.LKbutton = new System.Windows.Forms.Button();
             this.returnToMain_button = new System.Windows.Forms.Button();
             this.CloseButton = new System.Windows.Forms.Button();
             this.helpButton = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -97,6 +97,16 @@ namespace SBO_f
             this.Username_lable.Size = new System.Drawing.Size(208, 82);
             this.Username_lable.TabIndex = 2;
             this.Username_lable.Text = "Username";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::SBO_f.Properties.Resources.user_icon;
+            this.pictureBox2.Location = new System.Drawing.Point(25, 78);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(90, 90);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // panel2
             // 
@@ -169,16 +179,6 @@ namespace SBO_f
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.helpButton_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::SBO_f.Properties.Resources.user_icon;
-            this.pictureBox2.Location = new System.Drawing.Point(25, 78);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(90, 90);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SBO_f.Properties.Resources.icon;
@@ -201,8 +201,8 @@ namespace SBO_f
             this.Load += new System.EventHandler(this.FormLK_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
