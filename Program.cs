@@ -1,10 +1,11 @@
-﻿using System;
+﻿using MySqlConnector;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace sbo_ff
+namespace SBO_f
 {
     internal static class Program
     {
@@ -16,7 +17,7 @@ namespace sbo_ff
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new StartForm());
         }
     }
 }
