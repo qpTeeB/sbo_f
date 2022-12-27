@@ -17,7 +17,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/MainPage.Designer.cs
+      path: MainPage.Designer.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: MainPage
     path: MainPage.Designer.cs
     startLine: 3
@@ -580,7 +582,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/MainPage.cs
+      path: MainPage.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: LoginUser
     path: MainPage.cs
     startLine: 17
@@ -613,7 +617,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/MainPage.cs
+      path: MainPage.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: .ctor
     path: MainPage.cs
     startLine: 28
@@ -644,7 +650,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/MainPage.Designer.cs
+      path: MainPage.Designer.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: Dispose
     path: MainPage.Designer.cs
     startLine: 14

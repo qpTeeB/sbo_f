@@ -17,7 +17,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/DataBase.cs
+      path: DataBase.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: DataBase
     path: DataBase.cs
     startLine: 9
@@ -56,7 +58,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/DataBase.cs
+      path: DataBase.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: openConnection
     path: DataBase.cs
     startLine: 13
@@ -84,7 +88,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/DataBase.cs
+      path: DataBase.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: closeConnection
     path: DataBase.cs
     startLine: 17
@@ -112,7 +118,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/DataBase.cs
+      path: DataBase.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: getConnection
     path: DataBase.cs
     startLine: 21

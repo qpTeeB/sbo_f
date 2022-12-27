@@ -17,7 +17,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/RegisterForm.Designer.cs
+      path: RegisterForm.Designer.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: RegisterForm
     path: RegisterForm.Designer.cs
     startLine: 2
@@ -580,7 +582,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/RegisterForm.cs
+      path: RegisterForm.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: .ctor
     path: RegisterForm.cs
     startLine: 15
@@ -608,7 +612,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/RegisterForm.cs
+      path: RegisterForm.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: checkUser
     path: RegisterForm.cs
     startLine: 90
@@ -638,7 +644,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/RegisterForm.Designer.cs
+      path: RegisterForm.Designer.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: Dispose
     path: RegisterForm.Designer.cs
     startLine: 13
