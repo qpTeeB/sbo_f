@@ -46,7 +46,7 @@ namespace SBO_f
             point = new Point(e.X, e.Y);
         }
 
-        private void RegisterButton_Click(object sender, EventArgs e)
+        private void RegisterButton_Click(object sender, EventArgs e)  //Осуществляет проверку данных, введеных пользователем и заносит их в бд
         {
             if(loginField.Text == "")
             {
@@ -88,7 +88,7 @@ namespace SBO_f
             db.closeConnection();
         }
 
-        public Boolean checkUser()
+        public Boolean checkUser() // Проверяет, существует ли такой пользователь в бд
         {
             DataBase db = new DataBase();
             DataTable table = new DataTable();
