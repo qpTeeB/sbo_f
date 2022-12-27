@@ -1,0 +1,287 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ZcRFJgNhvhM6kAH28Vkb5TxxGPe7FlftmernEpHWKBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "yF4cM99miGSsrT64oV0kgkl56YkQylthgw5Gl1aJqzo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/user1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/user1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/user_icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/user_icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "GGOovSab6ZFxRkwbTiKX/AxcXz9WU1qSZOSIhjRqq74="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SBO_f.DataBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SBO_f.DataBase.html",
+          "hash": "Yp6Q9u1IJeZ5KGRGocG9QPxuxPFSecex089eaCezXoQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SBO_f.FormLK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SBO_f.FormLK.html",
+          "hash": "yL2eKU4z456fHsRGhQ2s+2MeVLr/2+x/G2Tfwntw7Fk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SBO_f.HelpForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SBO_f.HelpForm.html",
+          "hash": "CYJErAbQJeOsWdb7a+Rw5jPIQGsmPorjWyMyeR/9y6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SBO_f.LoginForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SBO_f.LoginForm.html",
+          "hash": "5HKI1n/7w//u33TsHs3XRM5TWkDybJ1d6qz4joyXwhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SBO_f.MainPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SBO_f.MainPage.html",
+          "hash": "D5Ispxq0Q59adX+oyIy+s0Ow771jRa253DF4mGj42Kk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SBO_f.RegisterForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SBO_f.RegisterForm.html",
+          "hash": "u6Vii9d/70WV+NrbuF84Zq3on+CAyDK+29ztoPXi66I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SBO_f.StartForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SBO_f.StartForm.html",
+          "hash": "3Xeh3ZhfxNLAM5TBe7XohSLGZT9+du7lwqltFktVpPE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SBO_f.TradeForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SBO_f.TradeForm.html",
+          "hash": "xLzLi+lyPl6NbTIXrZ7+3e1X7G8pZqa9nRETiJIEgXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SBO_f.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SBO_f.html",
+          "hash": "hd6hjxOwlnKeZMYGJ/i144gAsI/qJyozf18WF+NDbTw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "UaW3Foo2aJhcWxxmASsp4PS7wkObg5+I0mqsLIhTQVE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

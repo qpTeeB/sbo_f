@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace sbo_ff.Properties
+namespace SBO_f.Properties
 {
 
 

@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: SBO_f
+  commentId: N:SBO_f
+  id: SBO_f
+  children:
+  - SBO_f.DataBase
+  - SBO_f.FormLK
+  - SBO_f.HelpForm
+  - SBO_f.LoginForm
+  - SBO_f.MainPage
+  - SBO_f.RegisterForm
+  - SBO_f.StartForm
+  - SBO_f.TradeForm
+  langs:
+  - csharp
+  - vb
+  name: SBO_f
+  nameWithType: SBO_f
+  fullName: SBO_f
+  type: Namespace
+  assemblies:
+  - SBO_f
+references:
+- uid: SBO_f.DataBase
+  commentId: T:SBO_f.DataBase
+  name: DataBase
+  nameWithType: DataBase
+  fullName: SBO_f.DataBase
+- uid: SBO_f.FormLK
+  commentId: T:SBO_f.FormLK
+  name: FormLK
+  nameWithType: FormLK
+  fullName: SBO_f.FormLK
+- uid: SBO_f.HelpForm
+  commentId: T:SBO_f.HelpForm
+  name: HelpForm
+  nameWithType: HelpForm
+  fullName: SBO_f.HelpForm
+- uid: SBO_f.LoginForm
+  commentId: T:SBO_f.LoginForm
+  name: LoginForm
+  nameWithType: LoginForm
+  fullName: SBO_f.LoginForm
+- uid: SBO_f.MainPage
+  commentId: T:SBO_f.MainPage
+  name: MainPage
+  nameWithType: MainPage
+  fullName: SBO_f.MainPage
+- uid: SBO_f.RegisterForm
+  commentId: T:SBO_f.RegisterForm
+  name: RegisterForm
+  nameWithType: RegisterForm
+  fullName: SBO_f.RegisterForm
+- uid: SBO_f.StartForm
+  commentId: T:SBO_f.StartForm
+  name: StartForm
+  nameWithType: StartForm
+  fullName: SBO_f.StartForm
+- uid: SBO_f.TradeForm
+  commentId: T:SBO_f.TradeForm
+  name: TradeForm
+  nameWithType: TradeForm
+  fullName: SBO_f.TradeForm
