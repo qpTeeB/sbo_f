@@ -17,7 +17,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/FormLK.Designer.cs
+      path: FormLK.Designer.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: FormLK
     path: FormLK.Designer.cs
     startLine: 3
@@ -580,7 +582,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/FormLK.cs
+      path: FormLK.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: LoginUser
     path: FormLK.cs
     startLine: 17
@@ -613,7 +617,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/FormLK.cs
+      path: FormLK.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: .ctor
     path: FormLK.cs
     startLine: 28
@@ -644,7 +650,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/FormLK.Designer.cs
+      path: FormLK.Designer.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: Dispose
     path: FormLK.Designer.cs
     startLine: 14

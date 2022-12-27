@@ -17,7 +17,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/HelpForm.Designer.cs
+      path: HelpForm.Designer.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: HelpForm
     path: HelpForm.Designer.cs
     startLine: 2
@@ -580,7 +582,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/HelpForm.cs
+      path: HelpForm.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: LoginUser
     path: HelpForm.cs
     startLine: 16
@@ -613,7 +617,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/HelpForm.cs
+      path: HelpForm.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: .ctor
     path: HelpForm.cs
     startLine: 27
@@ -644,7 +650,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/HelpForm.Designer.cs
+      path: HelpForm.Designer.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: Dispose
     path: HelpForm.Designer.cs
     startLine: 13

@@ -16,7 +16,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/StartForm.Designer.cs
+      path: StartForm.Designer.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: StartForm
     path: StartForm.Designer.cs
     startLine: 2
@@ -579,7 +581,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/StartForm.cs
+      path: StartForm.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: .ctor
     path: StartForm.cs
     startLine: 14
@@ -607,7 +611,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/makct/Downloads/SBO_f/SBO_f/SBO_f/StartForm.Designer.cs
+      path: StartForm.Designer.cs
+      branch: develop
+      repo: https://github.com/qpTeeB/sbo_f.git
     id: Dispose
     path: StartForm.Designer.cs
     startLine: 13
