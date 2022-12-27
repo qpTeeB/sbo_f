@@ -13,9 +13,9 @@ namespace SBO_f
 {
     public partial class MainPage : Form
     {
-        private string loginUser;
+        private string loginUser; //Поле с логином пользователя
 
-        public string LoginUser 
+        public string LoginUser  //Свойства для поля с логином
         { 
             get 
             { 
@@ -60,7 +60,7 @@ namespace SBO_f
             Application.Exit();
         }
 
-        private void MainPage_Load(object sender, EventArgs e)
+        private void MainPage_Load(object sender, EventArgs e) //Метод для события загрузки формы, считывает объявления из бд и заносит их в ListView
         {
             
             DataBase db = new DataBase();
