@@ -65,7 +65,7 @@ namespace SBO_f
             Application.Exit();
         }
 
-        private void CreateButton_Click(object sender, EventArgs e)
+        private void CreateButton_Click(object sender, EventArgs e) //Метод добавления объявления в бд, так же проверяет корректность данных, введных пользователем
         {
             if (wts_textbox.Text == "")
             {
