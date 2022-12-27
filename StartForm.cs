@@ -17,21 +17,21 @@ namespace SBO_f
             InitializeComponent();
         }
 
-        private void CloseButton_Click(object sender, EventArgs e)
+        private void CloseButton_Click(object sender, EventArgs e) //Метод закрытия приложения
         {
             Application.Exit();
         }
-        private void CloseButton_MouseEnter(object sender, EventArgs e)
+        private void CloseButton_MouseEnter(object sender, EventArgs e) //Метод для события наведения мыши на кнопку закрытия
         {
             closeButton.ForeColor = Color.Gray;
         }
 
-        private void CloseButton_MouseLeave(object sender, EventArgs e)
+        private void CloseButton_MouseLeave(object sender, EventArgs e) //Метод для события наведения мыши на кнопку закрытия
         {
             closeButton.ForeColor = Color.White;
         }
         Point point;
-        private void MainPanel_MouseMove(object sender, MouseEventArgs e)
+        private void MainPanel_MouseMove(object sender, MouseEventArgs e) //Метод, добавляющий возможность перемещать окно по рабочему столу
         {
             if (e.Button == MouseButtons.Left)
             {
@@ -40,19 +40,19 @@ namespace SBO_f
             }
         }
 
-        private void MainPanel_MouseDown(object sender, MouseEventArgs e)
+        private void MainPanel_MouseDown(object sender, MouseEventArgs e) //Метод, добавляющий возможность перемещать окно по рабочему столу
         {
             point = new Point(e.X, e.Y);
         }
 
-        private void LoginButton_Click(object sender, EventArgs e)
+        private void LoginButton_Click(object sender, EventArgs e) //Метод нажатия на кнопку логина, осуществляет переход на форму авторизации
         {
             this.Hide();
             LoginForm loginForm = new LoginForm();
             loginForm.Show();
         }
 
-        private void RegisterButton_Click(object sender, EventArgs e)
+        private void RegisterButton_Click(object sender, EventArgs e) //Метод нажатия на кнопку регистрации, осуществляет переход на форму регистрации
         {
             this.Hide();
             RegisterForm registerForm = new RegisterForm();
